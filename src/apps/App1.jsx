@@ -49,14 +49,14 @@ const Message = () => {
     const message = use(errorMeassage);
     return (
         <div>
-            <h3>Message</h3>
+            <h5>Message</h5>
             <p>{message}</p>
         </div>
     );
 }
 
 function App() {
-    console.log("App 组件被渲染");
+    console.log("App 组件APP1被渲染");
 
     return (
         <ErrorBoundary>
